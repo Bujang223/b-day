@@ -123,7 +123,7 @@ body {
     top: 150px; /* Menyesuaikan posisi gambar di bawah teks */
     left: 60%; /* Pusatkan gambar di bawah teks */
     transform: translateX(-50%);
-    border-radius: 50%;
+    border-radius: 20%;
     animation: swing 2s infinite ease-in-out; /* Efek ayunan */
 }
 
