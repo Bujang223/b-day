@@ -117,14 +117,16 @@ body {
 }
 
 .balloons img {
-    width: 50px; /* Ukuran gambar yang lebih kecil */
-    height: 50px;
+    width: 70px; /* Ukuran gambar yang lebih kecil */
+    height: 85px;
     position: absolute;
-    top: 50px; /* Menyesuaikan posisi gambar di bawah teks */
-    left: 50%; /* Pusatkan gambar di bawah teks */
+    top: 150px; /* Menyesuaikan posisi gambar di bawah teks */
+    left: 60%; /* Pusatkan gambar di bawah teks */
     transform: translateX(-50%);
+    border-radius: 50%;
     animation: swing 2s infinite ease-in-out; /* Efek ayunan */
 }
+
 
 @keyframes swing {
     0% {
