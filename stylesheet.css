@@ -1280,35 +1280,6 @@ audio {
 	display: none;
 	font-weight: bold;
 }
-.balloons {
-    position: relative;
-}
-
-.balloons {
-    position: relative;
-}
-
-.balloons img {
-    width: 50px; /* Ukuran gambar yang lebih kecil */
-    height: 50px;
-    position: absolute;
-    top: 50px; /* Menyesuaikan posisi gambar di bawah teks */
-    left: 50%; /* Pusatkan gambar di bawah teks */
-    transform: translateX(-50%);
-    animation: swing 2s infinite ease-in-out; /* Efek ayunan */
-}
-
-@keyframes swing {
-    0% {
-        transform: translateX(-50%) rotate(-10deg);
-    }
-    50% {
-        transform: translateX(-50%) rotate(10deg);
-    }
-    100% {
-        transform: translateX(-50%) rotate(-10deg);
-    }
-}
 
 .btn-primary {
         border-color: #466baf;
