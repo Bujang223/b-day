@@ -1280,7 +1280,25 @@ audio {
 	display: none;
 	font-weight: bold;
 }
+.balloons {
+    position: relative;
+}
 
+.balloon-photo {
+    position: absolute;
+    bottom: -50px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50px; /* Sesuaikan ukuran gambar */
+    height: auto;
+    animation: swing 2s infinite ease-in-out;
+}
+
+@keyframes swing {
+    0% { transform: translateX(-50%) rotate(-10deg); }
+    50% { transform: translateX(-50%) rotate(10deg); }
+    100% { transform: translateX(-50%) rotate(-10deg); }
+}
 .btn-primary {
         border-color: #466baf;
         padding: 10px;
